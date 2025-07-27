@@ -16,12 +16,12 @@ This project uses a Convolutional Neural Network (CNN) built with Keras and Tens
 ## Setup and Installation
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/music-genre-classification.git](https://github.com/your-username/music-genre-classification.git)
+    git clone https://github.com/debug-soham/Music-Genre-Classification.git
     cd music-genre-classification
     ```
 
 2.  **Download the Dataset:**
-    - Download the GTZAN Genre Collection dataset from [here](http://mars.cs.uvic.ca/datasets/gtzan/).
+    - Download the GTZAN Genre Collection dataset from [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification).
     - Unzip it and place the `genres_original` folder inside a new `Data` folder in the project root. The final path should be `Data/genres_original/`.
     *(Note: The Data folder is not included in this repository due to its size.)*
 
