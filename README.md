@@ -2,6 +2,9 @@
 
 This project uses a Convolutional Neural Network (CNN) built with Keras and TensorFlow to classify music into 10 different genres based on their audio features (MFCCs).
 
+## Demo Video
+https://github.com/user-attachments/assets/b972ef58-335c-4851-955c-32258bb2543f
+
 ## Features
 - Classifies 10 music genres from the GTZAN dataset.
 - Extracts Mel-Frequency Cepstral Coefficients (MFCCs) using Librosa.
@@ -11,6 +14,7 @@ This project uses a Convolutional Neural Network (CNN) built with Keras and Tens
 ## Project Structure
 - `01_data_and_training.ipynb`: Jupyter Notebook for data processing, model training, and evaluation.
 - `predict.py`: Command-line script to classify a new audio file.
+- `visualize.py`: Generate a spectrogram for an audio file
 - `requirements.txt`: A list of all required Python packages.
 
 ## Setup and Installation
